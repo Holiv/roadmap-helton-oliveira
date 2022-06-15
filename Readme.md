@@ -1,17 +1,19 @@
 <h1 style="color: #0080ed;"><i> Roadmap - Helton Oliveira</h1></i>
-<div>
-<h4 style="margin: 0">Angular | C# - Fullstack Developer</h4>
-<h4 style="margin: 0">Computer Scientist</h4>
+
+<h4>Angular | C# - Fullstack Developer</h4>
+<h4>Computer Scientist</h4>
 </div>
-<br>
+
 Criação de um roadmap de carreira com objetivo de registrar meu progresso durante os estudos na formação de <b>Desenvolvedor</b> e <b>Cientista da Computação autodidata.</b><br>
 <i>Carre's roadmap to track my progress during the studies to become a <b>Developer</b> and a <b>Self-taught Computer Scientist</b></i>
+
+------
 
 ## Bootcamps
 
 ### <i>List of bootcamps</i>
 
-<div align="center" style="font-size: 14px; width: 80%; margin: 0 auto;" >
+<div align="center">
 
 |  Course |  Start Date | Status |
 | ------------ | ------------ | ------------ |
@@ -23,13 +25,13 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 #### <i>Repositories from this courses: <a href="https://github.com/Holiv/startse-desafio-2">Desafio 2 StartSe - Formulário</a> | <a href="https://github.com/Holiv/number-guesser-js">Number Guesser</a> | <a href="https://github.com/Holiv/modelo-portfolio-startse">Desafio 1 StartSe - Modelo Portfolio</a> | <a href="https://github.com/Holiv/convite-aniversario-js">Convite Interativo</a> | <a href="https://github.com/Holiv/login-instagram-dio">Login Instagram</a> | <a href="https://github.com/Holiv/js-beginner-counter">Counter - JS</a> | <a href="https://github.com/Holiv/js-beginner-verificador-soma">Verificador de Soma</a> |
  </i>
 
-<span style="display: inline-block; width: 100%; border-bottom: 2px solid #0080ed"></span>
+------
 
 ## Full Stack Courses Guide
 
 ### <i>This course plan has focus on full stack web development formation using Angular and C#</i>
 
-<div style="font-size: 14px; width: 80%; margin: 0 auto">
+<div align="center">
 
 |  Course |  Start Date | Status |
 | ------------ | ------------ | ------------ |
@@ -51,12 +53,12 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 
 #### <i>Repositories from this courses: </i>
 
-<span style="display: inline-block; width: 100%; border-bottom: 2px solid #0080ed"></span>
+------
 
 ## Computer Science Course Guide
 
 ### <i>This course plan has focus on Computer Science</i>
-<div align="center" style="font-size: 14px; width: 80%; margin: 0 auto;" >
+<div align="center">
 
 |  Course |  Start Date | Status |
 | ------------ | ------------ | ------------ |
@@ -65,5 +67,4 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 </div>
 
 #### <i>Repositories from this courses: </i>
-
-<span style="display: inline-block; width: 100%; border-bottom: 2px solid #0080ed"></span>
+------
