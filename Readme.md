@@ -1,12 +1,14 @@
 # <i> Roadmap - Helton Oliveira</i>
 <div align="center"> <img width="36px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <img width="36px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"> <img width="36px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"> <img width="36px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"> <img width="36px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"></div>
 
+<div align="center">
+
 ### Angular | C# - Fullstack Developer
 ### Computer Scientist
 </div>
 
 
-#### <i>Carees <u>Roadmap</u> to track my progress during the journey to become a <u>Developer</u> and a <u>Self-taught Computer Scientist</u></i>
+### <i>Carees <u>Roadmap</u> to track my progress during the journey to become a <u>Developer</u> and a <u>Self-taught Computer Scientist</u></i>
 <i>Criação de um roadmap de carreira com objetivo de registrar meu progresso durante os estudos na formação de <b>Desenvolvedor</b> e <b>Cientista da Computação autodidata.</b><br></i>
 
 ------
