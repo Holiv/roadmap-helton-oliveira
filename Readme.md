@@ -1,11 +1,13 @@
-<h1 style="color: #0080ed;"><i> Roadmap - Helton Oliveira</h1></i>
+# <i> Roadmap - Helton Oliveira</i>
+<div align="center"> <img width="36px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <img width="36px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"> <img width="36px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"> <img width="36px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"> <img width="36px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"></div>
 
-<h4>Angular | C# - Fullstack Developer</h4>
-<h4>Computer Scientist</h4>
+### Angular | C# - Fullstack Developer
+### Computer Scientist
 </div>
 
-Criação de um roadmap de carreira com objetivo de registrar meu progresso durante os estudos na formação de <b>Desenvolvedor</b> e <b>Cientista da Computação autodidata.</b><br>
-<i>Carre's roadmap to track my progress during the studies to become a <b>Developer</b> and a <b>Self-taught Computer Scientist</b></i>
+
+### <i>Carees <u>Roadmap</u> to track my progress during the journey to become a <u>Developer</u> and a <u>Self-taught Computer Scientist</u></i><br>
+<i>Criação de um roadmap de carreira com objetivo de registrar meu progresso durante os estudos na formação de <b>Desenvolvedor</b> e <b>Cientista da Computação autodidata.</b><br></i>
 
 ------
 
@@ -43,7 +45,7 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 | <img width="18px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"><a href="https://www.udemy.com/course/angular-from-beginner-to-advanced-r/"> Angular from Beginner to Advanced, Typescript and HTTP</a>   |   |  Not Started |
 | <img width="18px" src="https://cdn2.iconfinder.com/data/icons/programming-50/64/206_programming-sql-data-database-512.png"><a href="https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/">The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert</a>   |   |  Not Started |
 | <img width="20px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.udemy.com/course/complete-csharp-masterclass/"> Complete C# Masterclass</a>   |   |  Not Started |
-| <img width="20px" src="https://e7.pngegg.com/pngimages/534/663/png-clipart-net-framework-software-framework-c-microsoft-asp-net-microsoft-blue-angle-thumbnail.png"><a href="https://www.youtube.com/watch?v=hZ1DASYd9rk&t=4s&ab_channel=freeCodeCamp.org"> ASP.NET Core MVC (.NET 6) </a>   |   |  Not Started |
+| <img width="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png"><a href="https://www.youtube.com/watch?v=hZ1DASYd9rk&t=4s&ab_channel=freeCodeCamp.org"> ASP.NET Core MVC (.NET 6) </a>   |   |  Not Started |
 | <img width="18px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"><a href="https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/"> Build an app with ASPNET Core and Angular from scratch</a>   |   | Not Started  |
 | <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.udemy.com/course/data-structures-and-algorithms-in-depth-using-c-sharp/"> Data Structures and Algorithms: In Depth using C#</a>   |   | Not Started  |
 |  <img width="18px" src="https://cdn2.iconfinder.com/data/icons/programming-50/64/206_programming-sql-data-database-512.png"><a href="https://www.udemy.com/course/the-complete-oracle-sql-certification-course/"> The Complete Oracle SQL Certification Course</a>  |   | Not Started  |
