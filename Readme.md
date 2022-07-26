@@ -15,10 +15,10 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 
 <div align="center">
 
-|  Course |  Start Date | Status | End Date | Certificate |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
-|<a href="https://www.startse.com/?utm_term=startse&utm_campaign=Search_Institucional_StartSe&utm_source=adwords&utm_medium=ppc&hsa_acc=5481106700&hsa_cam=9309368784&hsa_grp=89353845050&hsa_ad=532283270377&hsa_src=g&hsa_tgt=aud-1188339340525:kwd-378518100877&hsa_kw=startse&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwhqaVBhCxARIsAHK1tiNJknBSuiuY8FzkKSMqRU2F6w4VBTM_96S7u2s2FUVQl_BnQnn-DmgaAj41EALw_wcB">StartSe - Tech Academy/Fullstack (HTML/CSS/JS/Node)</a>  |  05/05/2022 |  Completed |  22/07/2022  |    |
-|<a href="https://www.dio.me/">DIO - Unimed-BH Fullstak (Angular/C#)</a>  |  01/06/2022 |  In Progress  |  In Progress  |
+|  Course |  Start Date | Status | Certificate |
+| ------------ | ------------ | ------------ | ------------ |
+|<a href="https://www.startse.com/?utm_term=startse&utm_campaign=Search_Institucional_StartSe&utm_source=adwords&utm_medium=ppc&hsa_acc=5481106700&hsa_cam=9309368784&hsa_grp=89353845050&hsa_ad=532283270377&hsa_src=g&hsa_tgt=aud-1188339340525:kwd-378518100877&hsa_kw=startse&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwhqaVBhCxARIsAHK1tiNJknBSuiuY8FzkKSMqRU2F6w4VBTM_96S7u2s2FUVQl_BnQnn-DmgaAj41EALw_wcB">StartSe - Tech Academy/Fullstack (HTML/CSS/JS/Node)</a>  |  05/05/2022 |  Completed |     |
+|<a href="https://www.dio.me/">DIO - Unimed-BH Fullstak (Angular/C#)</a>  |  01/06/2022 |  In Progress  |   |
 
 </div>
 
@@ -33,8 +33,8 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 
 <div align="center">
 
-|  Course |  Start Date | Status | End Date | Certificate |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
+|  Course |  Start Date | Status | Certificate |
+| ------------ | ------------ | ------------ | ------------ |
 | <img width="18px" src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"> <a href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/learn/lecture/16279960?start=15">Complete Web Design: From Figma to Webflow</a>  |  15/06/2022 |  In Progress  |
 | <img width="18px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <a href="https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22628657?start=0">The Complete JavaScript Course</a>  | 25/07/2022  | In Progress  |
 | <img width="18px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"><a href=""> Understanding TypeScript</a>   |  |  Not Started |
@@ -61,8 +61,8 @@ Criação de um roadmap de carreira com objetivo de registrar meu progresso dura
 ### <i>This course plan has focus on Computer Science</i>
 <div align="center">
 
-|  Course |  Start Date | Status | End Date | Certificate |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
+|  Course |  Start Date | Status | Certificate |
+| ------------ | ------------ | ------------ | ------------ |
 | <img width="18px" src="https://images-na.ssl-images-amazon.com/images/I/414HXNGKVhL.png"> <a href="https://cs50.harvard.edu/x/2022/">Harvard CS50x - Introduction to Computer Science</a>  |  17/02/2022 |  Progress - 45%  |
 | <img width="18px" src="https://camo.githubusercontent.com/571d23edad9da0a656fdf95f6483ac63585ea09542b7620749880627b4b2161e/68747470733a2f2f692e696d6775722e636f6d2f6b5959435874432e706e67"> <a href="https://github.com/ossu/computer-science">Open Source Society University - Computer Science</a>  |   | Not Started  |
 </div>
