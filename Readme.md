@@ -67,6 +67,7 @@
 |  Course |  Start Date | Status | Certificate |
 | ------------ | ------------ | ------------ | ------------ |
 | <img width="18px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <a href="https://www.udemy.com/course/javascript-unit-testing-the-practical-guide/">JavaScript Unit Testing - The Practical Guide</a>  |   |  Not Started |
+| <img width="18px" src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg"><a href="https://www.udemy.com/course/angular-testing-course"> Angular Testing Masterclass</a>   |   |  Not Started |
 |  <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.udemy.com/course/unit-testing-csharp/"> Unit Testing for C# Developers</a>  |   |  Not Started |
 |  <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.youtube.com/watch?v=ub3P8c87cwk&ab_channel=IAmTimCorey">  Unit Testing in C# using XUnit</a>  |   |  Not Started 
 </div>
