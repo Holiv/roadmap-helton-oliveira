@@ -8,7 +8,7 @@ Type: Course, JavaScript
 
 * <a href="#values">Values and Variables </a>
     * Convention and Rules to name Variables
-    * Data Types
+* <a href="#data"> Data Types</a>
     * Number
     * String
     * Boolean
@@ -16,51 +16,51 @@ Type: Course, JavaScript
     * Null
     * Symbol (ES2015)
     * BigInt
-* Let, Const and Var
+* <a href="#let"> Let, Const and Var</a>
     * Let
     * Const
     * Var
-* Basic Operators
-* Operator precedence
-* String and Template literals
-* If/Else statements
-* Type Conversion and Coercion
+* <a href="#basic"> Basic Operators</a>
+* <a href="#operator"> Operator precedence</a>
+* <a href="#stringAndTemplate"> String and Template literals</a>
+* <a href="#ifElse"> If/Else statements</a>
+* <a href="#typeConversion"> Type Conversion and Coercion</a>
     * Type conversion
     * Type coercion
-* Truthy and Falsy values
-* Equality operators
+* <a href="#truthy"> Truthy and Falsy values</a>
+* <a href="#equality"> Equality operators</a>
     * loose equality operator (==)
     * strict equality operator (===)
     * Different operator (!= / !==)
-* Boolean Logic (true or false)
-* Logical Operators (&&, ||, !)
-* The Switch statement
-* Statements and Expressions
+* <a href="#boolean"> Boolean Logic (true or false)</a>
+* <a href="#logical"> Logical Operators (&&, ||, !)</a>
+* <a href="#switch"> The Switch statement</a>
+* <a href="#statements"> Statements and Expressions</a>
     * Expression
     * Statement
-* The Conditional (Ternary) Operator
-* Activate Strict Mode
-* Functions
+* <a href="#conditional"> The Conditional (Ternary) Operator</a>
+* <a href="#activate"> Activate Strict Mode</a>
+* <a href="#functions"> Functions</a>
     * Returning a value from a function
-* Function Declarations vs. Expressions
+* <a href="#declaration"> Function Declarations vs. Expressions</a>
     * Function Declaration
     * Expressions (Anonymous Function)
     * Real difference between Function Declarations and Function Expressions
-* Arrow Functions
-* Functions Calling other Functions
-* Reviewing Functions
-    * Types of function that can be used
+* <a href="#arrow"> Arrow Functions</a>
+* <a href="#calling"> Functions Calling other Functions</a>
+* <a href="#reviewing"> Reviewing Functions</a>
+    * Types of function that can be used</a>
     * Anathomy of a function
-* Introduction to Arrays
-* Basic Array Operations(Methods)
+* <a href="#arrays"> Introduction to Arrays</a>
+* <a href="#basicArray"> Basic Array Operations(Methods)</a>
     * Push
     * Unshift
     * Pop
     * Shift
     * IndexOf
     * Includes
-* Introduction to Objects
-* Dot vs Bracket Notation
+* <a href="#objects"> Introduction to Objects</a>
+* <a href="#dot"> Dot vs Bracket Notation</a>
 
 # A Brief Introduction to JavaScript
 
@@ -99,7 +99,7 @@ In the past code we have used the variable named **firstName**, as we can see th
 - Variables that are written completely in uppercase are variables reserved to Constants. These are variables whose value won’t change.
 - Make sure the variables names are very descriptive, it means that the name of the variable is completely correlated with its value. For example ***fistName*** lead us to understand at first sight the it holds a value that is someone first name.
 
-## Data Types
+## <a id="data">Data Types</a>
 
 Each value in JavaScript is a **object** or a **primitive value**
 
@@ -175,7 +175,7 @@ Larger integers. Numbers that are to large to be represented by the number type.
 **That’s why is so important to understand the difference between Value and Variable, because in JavaScript its the value that has a type and not the variable.**
 > 
 
-## Let, Const and Var
+## <a id="let">Let, Const and Var</a>
 
 ### Let
 
@@ -198,7 +198,7 @@ It is important to knowing the use of **var** for legacy reasons, but its use mu
 
 The keyword **var** allows a complete mutation of variables during the code execution that can lead to bugs.
 
-## Basic Operators
+## <a id="basic">Basic Operators</a>
 
 Operator allows us to transform values or combine multiple values and do all kind of work with values. 
 
@@ -219,7 +219,7 @@ Operator allows us to transform values or combine multiple values and do all kin
     - ===, used to compare values and types (used when more rigorously comparison is needed);
     - >, <, ≥, ≤, used to compare numbers values, checking the conditions;
 
-## Operator precedence
+## <a id="operator">Operator precedence</a>
 
 JavaScript has a well defined order of operator precedence. For example, all the mathematical operators are executed before the comparison operators.
 
@@ -229,7 +229,7 @@ All references to operator precedence in the link bellow.
 
 [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
 
-## String and Template literals
+## <a id="stringAndTemplate">String and Template literals</a>
 
 Template literals is a better way to concatenate strings without using the + sign creating a better line of code, more readable. 
 
@@ -249,7 +249,7 @@ const heltoName = `Hi, my first name is ${firstName} and my last name is ${lastN
 
 As we can see, using `` we start and finish the template and and to concatenate with a variable we use `${}`
 
-## If/Else statements
+## <a id="ifElse">If/Else statements</a>
 
 if else statements allows us to creating a conditional check on our code. It means some peace of our code will be executed only **if** the conditions is true. 
 
@@ -267,7 +267,7 @@ if (age == 30){
 
 Else is not always necessary. We can use just the **if** check condition in some cases and JavaScript will continue running the code right after the if statement ends.
 
-## Type Conversion and Coercion
+## <a id="typeConversion">Type Conversion and Coercion</a>
 
 Learn type conversion is important because convert string to number, string to boolean and others is necessary all the time.
 
@@ -325,7 +325,7 @@ In the example above the minus sign triggered the string to number conversion an
 
 The same will occur to the multiply ***** and the divide **/** operator.
 
-## Truthy and Falsy values
+## <a id="truthy">Truthy and Falsy values</a>
 
 Falsy values are values that will become a false value when we try to convert them into a boolean value.
 
@@ -357,7 +357,7 @@ if (money){ //money is covnerted to boolean using type coercion so the if/else c
 //the message 'You should get a job' will be printed to the console as the result was a false boolean value, then the 'else' block that is going to be executed
 ```
 
-## Equality operators
+## <a id="equality">Equality operators</a>
 
 ### loose equality operator (==)
 
@@ -409,7 +409,7 @@ if (bestColor !== 'red') console.log("Why not red?");
 //The console will print the message 'Why not red' because the bestColor is different than Red.
 ```
 
-## Boolean Logic (true or false)
+## <a id="boolean">Boolean Logic (true or false)</a>
 
 Boolean logic is a branch of computer science that uses True of False values to solve logical problems.
 
@@ -423,7 +423,7 @@ OR = if t least one of the values is true, the result of the conditional check w
 
 ![Untitled](The%20Complete%20JavaScript%20Course%20b30eb897e777483da96dbcceccb008bd/Untitled.png)
 
-## Logical Operators (&&, ||, !)
+## <a id="logical">Logical Operators (&&, ||, !)</a>
 
 We can use boolean values and logical operators to model complex situations.
 
@@ -446,7 +446,7 @@ if (hasDriverLicense && hasGoodVision && !isTired) {
 }
 ```
 
-## The Switch statement
+## <a id="switch">The Switch statement</a>
 
 The switch statement is a toll to compare a value with multiple options.
 
@@ -479,7 +479,7 @@ switch(day) {
 
 The switch statement execute a **strict comparison.** It is very similar to a If/Else statement. Although the switch statement is more  and more less used, it can be very helpful in comparison situations where a if/else statement produces a repetitive code and the switch statement being more readable.
 
-## Statements and Expressions
+## <a id="statements">Statements and Expressions
 
 ### Expression
 
@@ -515,7 +515,7 @@ console.log(`I'm ${2022 - 1992} years old`);
 //There's a expression inside the ${}.
 ```
 
-## The Conditional (Ternary) Operator
+## <a id="conditional">The Conditional (Ternary) Operator</a>
 
 The ternary operator allow us to create if/else statements using only one line of code.
 
@@ -546,7 +546,7 @@ Another big advantage to use ternary operator is to combine it with template lit
 console.log(`I'd like to drink ${age >= 18 ? 'wine' : 'water'}`);
 ```
 
-## Activate Strict Mode
+## <a id="activate">Activate Strict Mode</a>
 
 The **strict mode** is a special mode that we can activate to write a secure JavaScript code. 
 
@@ -565,7 +565,7 @@ The strict mode help developers avoid create bugs in the code, and that’s beca
 - Forbid us to do certain things;
 - Create visible errors for us in certain situations in which some situations JavaScript will fail silently without letting us know that we did a mistake.
 
-## Functions
+## <a id="functions">Functions</a>
 
 What is a function? A function is a peace of code that we can reuse during the program execution. We can use this piece of code over and over always when necessary.
 
@@ -679,7 +679,7 @@ const appleJuice = fruitProcessor(5, 0);
 
 Using just one line of code we called the function passing the arguments and assigned it to a new variable that will store the value returned by the function. After that, always when necessary to use the value returned by the function is just use the variable `appleJuice`.
 
-## Function Declarations vs. Expressions
+## <a id="declaration">Function Declarations vs. Expressions</a>
 
 ### Function Declaration
 
@@ -772,7 +772,7 @@ It is all correlated to a process called **hoisting** the we will see later, but
 
 To use **function expressions** we can create a better structure of code, this way we will have everything stored in variables, values and functions and also using function expressions we will avoid the process of ***hoisting***.
 
-## Arrow Functions
+## <a id="arrow">Arrow Functions</a>
 
 Arrow function is a third way to write a function in JavaScript implemented in ES6. It is a shorter way and therefore faster to write.
 
@@ -823,7 +823,7 @@ The answer is **NO!**
 
 When the code gets bigger, with multiple lines the advantage of use arrow function shrinks and the other reason is that arrow functions as we saw is a function expression and as a function expression it don’t get the keyword **this**.  (That is why is so important to understand the difference between a function declaration and a function expression). This topic will come back later in a more advanced content, for now i will let a link [***here***](https://www.codementor.io/@dariogarciamoya/understanding-this-in-javascript-with-arrow-functions-gcpjwfyuc) to read more about the **this** keyword in **arrow functions** 
 
-## Functions Calling other Functions
+## <a id="calling">Functions Calling other Functions</a>
 
 Let’s start this topic with a very importante principle called **DRY (Don’t Repeat Yourself)**.
 
@@ -893,7 +893,7 @@ The code above will produce the same result as the last one, but its use is not 
 
 To put an end point in this topic remember, **Don’t Repeat Yourself.** Let the code do the work that it can do for you, let it call the functions inside other functions, let the code talk to itself and have a good dialogue. This will help you find the bugs and kill them. Maintain your code is going to be a light work.
 
-## Reviewing Functions
+## <a id="reviewing">Reviewing Functions</a>
 
 ### Types of function that can be used
 
@@ -903,7 +903,7 @@ To put an end point in this topic remember, **Don’t Repeat Yourself.** Let the
 
 ![Untitled](The%20Complete%20JavaScript%20Course%20b30eb897e777483da96dbcceccb008bd/Untitled%202.png)
 
-## Introduction to Arrays
+## <a id="arrays">Introduction to Arrays</a>
 
 Remember this word: **Data Structure**. Data Structure are structures used in programming no matter what language do you work with. The first one we are going to talk about is called **Array.**
 
@@ -1001,7 +1001,7 @@ const age[0] = 15;
 //In the second example, the small container inside the container age remains the same, we just open the container age, open the small container and change the value inside it.
 ```
 
-## Basic Array Operations(Methods)
+## <a id="basicArray">Basic Array Operations(Methods)</a>
 
 There are countless array methods in JavaScript, they are very important and we will learn all of them before, but for now we are going to learn some basic ones to get used of using methods in JavaScript.
 
@@ -1137,7 +1137,7 @@ if(friends.includes('Marcos') {
 //the statement above will print to the console 'This person is a stranger', because there isn't a value as string named 'Marcos' in the array.
 ```
 
-## Introduction to Objects
+## <a id="objects">Introduction to Objects</a>
 
 **Object** is the second ***Data Structure*** we are going to learn.
 
@@ -1188,6 +1188,6 @@ const helton = {
 
 To finish our introduction ***we use objects to group together variables that really belongs together, like properties of an object in a real world. And other big difference is that using objects the order of these values does not matter at all when we want to retrieve them.***
 
-## Dot vs Bracket Notation
+## <a id="dot">Dot vs Bracket Notation</a>
 
 In this section we are going to learn how to retrieve and change data using **Dot** and **Bracket Notation.**
