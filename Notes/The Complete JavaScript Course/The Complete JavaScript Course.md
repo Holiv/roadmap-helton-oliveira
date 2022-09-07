@@ -5,6 +5,63 @@ Start Date: July 25, 2022
 Status: In Progress
 Type: Course, JavaScript
 
+
+* <a href="#values">Values and Variables </a>
+    * Convention and Rules to name Variables
+    * Data Types
+    * Number
+    * String
+    * Boolean
+    * Undefined
+    * Null
+    * Symbol (ES2015)
+    * BigInt
+* Let, Const and Var
+    * Let
+    * Const
+    * Var
+* Basic Operators
+* Operator precedence
+* String and Template literals
+* If/Else statements
+* Type Conversion and Coercion
+    * Type conversion
+    * Type coercion
+* Truthy and Falsy values
+* Equality operators
+    * loose equality operator (==)
+    * strict equality operator (===)
+    * Different operator (!= / !==)
+* Boolean Logic (true or false)
+* Logical Operators (&&, ||, !)
+* The Switch statement
+* Statements and Expressions
+    * Expression
+    * Statement
+* The Conditional (Ternary) Operator
+* Activate Strict Mode
+* Functions
+    * Returning a value from a function
+* Function Declarations vs. Expressions
+    * Function Declaration
+    * Expressions (Anonymous Function)
+    * Real difference between Function Declarations and Function Expressions
+* Arrow Functions
+* Functions Calling other Functions
+* Reviewing Functions
+    * Types of function that can be used
+    * Anathomy of a function
+* Introduction to Arrays
+* Basic Array Operations(Methods)
+    * Push
+    * Unshift
+    * Pop
+    * Shift
+    * IndexOf
+    * Includes
+* Introduction to Objects
+* Dot vs Bracket Notation
+
 # A Brief Introduction to JavaScript
 
 JavaScript is a high level, multi-paradigm, object-oriented programming language.
@@ -13,7 +70,7 @@ As a high level language JavaScript doesn’t work with complex stuff like memor
 
 JavaScript is algo based on objects for storing most kind of data and is a Multi-Paragim language that means we can use different styles of programming, as imperative and declarative style.
 
-## Values and Variables
+## <a id='values'> Values and Variables</a>
 
 Value is basically a piece of data. The smallest unit of information in a program. 
 
