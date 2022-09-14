@@ -61,6 +61,14 @@ Type: Course, JavaScript
     * Includes
 * <a href="#objects"> Introduction to Objects</a>
 * <a href="#dot"> Dot vs Bracket Notation</a>
+    * Dot Notation
+    * Bracket Notation
+    * When use Dot or Bracket Notation
+    * Adding values to an Object using Dor or Braket Notation
+    * Practice
+* <a href="#objectMethods"> Object Methods</a>
+    * Practice
+    * Arrays Methods
 
 # A Brief Introduction to JavaScript
 
@@ -1190,4 +1198,377 @@ To finish our introduction ***we use objects to group together variables that re
 
 ## <a id="dot">Dot vs Bracket Notation</a>
 
-In this section we are going to learn how to retrieve and change data using **Dot** and **Bracket Notation.**
+In this section we are going to learn how to retrieve and change data from an Object using **Dot** and **Bracket Notation.** We have talked in the last section that data is retrieved from objects using its properties, but how is it done?
+
+### Dot Notation
+
+Dot notation is, possibly, the most used way to retrieve data from an object. It is simple and fast. Dot notation uses a **dot** as an operator followed by the object propertie name just after the object name.
+
+The dot notation structure then consists as follows:
+
+`objectName.objectPropertieName` 
+
+- ***What comes before the Dot is the object***
+- ***The Dot is an Operator. It tells to the program that we are going to retrieve some data***
+- ***What comes after the Dot is the Object Propertie Name that will provide the specific Data***
+
+Let’s get our hands dirty.
+
+```jsx
+const helton = {
+	fisrtName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Engineer',
+	friends: ['Luiz', 'Helena']
+};
+```
+
+The code above brings to us an Object that fit as a real person. It has properties as First Name, Last Name, Age, etc. And the object name is ***helton***.
+
+Let’s use the Dot Notation to retrieve the job of the person represented by this object:
+
+```jsx
+console.log(helton.job);
+//will print to the console: 'Engineer'
+```
+
+It is very straightforward
+
+### Bracket Notation
+
+Bracket Notation has the same use as Dot Notation, what differs is its structure and bring some new possibilities.
+
+Bracket Notation, as the nome suggests, use brackets to retrieve the values from objects properties.
+
+Using the same example used before, but using bracket notation:
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Engineer',
+	friends: ['Luiz', 'Helena']
+};
+```
+
+Let’s retrieve the object last name:
+
+```jsx
+console.log(helton['lastName']);
+//will print to the console: 'Oliveira'
+```
+
+Here comes the best part. As i said above, bracket notation brings some new possibilities and the reason is that bracket notation accepts statements inside the brackets.
+
+Why is that so good? While dot notation allows us just to retrieve a specific propertie value, using statements in bracket notations, we can, for example, use conditional statement through a ternary operator to decide which object propertie value to retrieve or do not retrieve none:
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Doctor',
+	friends: ['Luiz', 'Helena']
+};
+
+const result = helton[helton.job === 'Engineer' ? 'firstName' : undefined];
+
+!result ? console.log('Not an Engineer') : console.log(result);
+//will print to the console: 'Not an Engineer'
+
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Engineer',
+	friends: ['Luiz', 'Helena']
+};
+
+const result = helton[helton.job === 'Engineer' ? 'firstName' : undefined];
+
+!result ? console.log('Not an Engineer') : console.log(result);
+//will print to the console: 'Helton'
+```
+
+Using statements inside brackets to generate the key to decide which value to retrieve (or do not retrieve) from an object propertie opens a whole world of possibilities. 
+
+### When use Dot or Bracket Notation
+
+Use Bracket Notation when it is needed to compute or generate the value of the key through an expression. In any other case use dot notation because it is cleaner and easier to use.
+
+### Adding values to an Object using Dot and Bracket Notation
+
+Very straightforward, adding values to an object is similar to retrieving values from it. We are going to use the same structure, but assigning to it the new value to be added to the object.
+
+```jsx
+After
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Doctor',
+	friends: ['Luiz', 'Helena'],
+};
+
+helton.height = 1.83;
+helton['eyeColor'] = 'green';
+
+Before
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Doctor',
+	friends: ['Luiz', 'Helena'],
+	height: 1.83,
+	eyeColor: 'green',
+};
+```
+
+### Pratice
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	age: 2022-1992,
+	job: 'Doctor',
+	friends: ['Luiz', 'Helena'],
+};
+
+console.log(`${helton.firstName} has ${helton.friends.length} friends and his best friend is ${helton.friends[0]}`);
+//will print to the console: 'Helton has 3 friends and his best friend is Luiz'.
+```
+
+## <a id='objectMethods'>Object Methods</a>
+
+We have learned that Objects, just as Arrays can hold different types of data, even other Arrays. In fact it can hold even Objects inside Objects.
+
+Let’s get it further and for that remember that functions are also a type of data and if functions is just a value it means we can create key value pair in which the value is a function.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function (birthYear) {
+		return 2022 - birthYear;
+	}
+}
+
+const calcAge = function(birthYear) {
+	return 2022 - birthYear;
+}
+```
+
+In the first block of the code above we have a key value pair called 'calcAge' that holds a function. So we can say that this object has a property that in fact is a function.
+
+In the second block of code we have a regular way of write a function. Just a function expression.
+
+**Here comes the point, any function attached to an Object is called a method.**
+
+Thats a point to remember how it is important to know the difference between function expressions and function declaration, because a function declaration doesn't work here. To store a function as a property of an Object we must always use a function expression. 
+
+***(expressions are lines of code that are directly transformed in a value, reason why it can be used)***
+
+So if you can think in function expression as a values, then you can see that a method is actually also a property. It just happens that it is a property that holds a function value.
+
+In order to access our method we can do it the same way we do to access any other property. But as it is a function as well, in order to call it properly we must use the parenthesis and pass our value as argument (if necessary).
+
+```jsx
+//calling the object method using dot notation
+console.log(helton.calcAge(1992));
+
+//calling the object method using bracket notation
+console.log(helton['calcAge'](1992);
+```
+
+Notice that we are passing as argument a value that we already have in the object. It violates the DRY principle, because we are repeating code, and it is also error prone and if the value is needed to be changed we will have to change it everywhere. That's the philosophy we must follow, ***Don't repeat yourself.*** 
+
+So what if we could access the birth year property directly from the object instead of having to pass it in?
+
+We actually can!
+
+*The answer for that is because in every Method JavaScript give us access to a special variable called **this**.*
+
+So what we can do now is read the the birth year from the object inside the calcAge function directly.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function () {
+		return 2022 - this.birthYear;
+	}
+}
+
+console.log(helton.calcAge())
+```
+
+Notice the difference. No more needed to pass a birth year value as argument. Once the birth year value already exists inside the object we can access this through the keyword this inside the method calcAge.
+
+So the this keyword is basically equal to the object on which the method is called.
+
+But what does it really means? Let's simplify!
+
+```jsx
+console.log(helton.calcAge())
+```
+
+In the line of code above, the object who called the method calcAge is the `helton object` so the `this` keyword will point to `helton`.
+
+What appears before the dot is the one who is calling the method. In this case `this` will point to `helton` and becomes the whole `helton` object. And if it points to `helton` then `this.birthYear` will be equal to 1992. 
+
+***Always remember that `this` becomes the object that have called the method which it belongs.***
+
+To see it clear, let's print to the console the `this` inside a method.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function () {
+		return 2022 - this.birthYear;
+		console.log(this);
+		//will print to the console the whole ***helton object:
+{firsname: 'Helton', lastName: 'Oliveira', birthYear: 1992, job: 'Engineer', friends: Array(2),...}***
+	}
+}
+```
+
+Now it can be easier to assimilate. If `this` is the whole object and `birthYear` is a property of the object then `this.birthYear` will return the value stored in the property birthYear.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function () {
+		return 2022 - this.birthYear;
+		console.log(this.birthYear);
+		//will print to the console: ***1992***
+	}
+}
+```
+
+> ***This*** keyword is really useful
+> 
+
+Is important to know that using the object name instead of the keyword `this` will work the same way, but it is hardcoding and also violate the DRY principle. 
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function () {
+		return 2022 - this.birthYear;
+		console.log(helton.birthYear);
+		//will print to the console: ***1992***
+	}
+}
+```
+
+As we can see the result is exactly the same.
+
+But let's consider that for some reason the name of the object need to be changed, then it will have to be changed everywhere even in the methods. Unless we use the keyword `this`.
+
+It turns out that we still can improve our code. In a real world we can have situations where a method can be called multiple times. However in a scenario where its value is not going to change we can simply story its value in a new property, so the subsequent call will not have to compute the code all again, just retrieve the produced value in the first time run.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+
+	calcAge: function () {
+		this.age = 2022 - this.birthYear;
+		return this.age;
+	}
+}
+
+//the first time the method ***calcAge*** is called it will include in the object a new property called ***age*** and store the value produced in it
+
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: true,
+	age: 30,
+
+	calcAge: function () {
+		this.age = 2022 - this.birthYear;
+		return this.age;
+	}
+}
+//the object with the new property after the method is called for the first time.
+```
+
+Now with a new property available we can access it always when needed in the code using the methods already learned in this section, Dot Notation and Bracket Notation.
+
+```jsx
+helton.calcAge();
+console.log(helton.age);
+//will print to the console: ***30***
+```
+
+### Practice
+
+Creating a code that uses an Object properties and methods to create a phrase.
+
+```jsx
+const helton = {
+	firstName: 'Helton',
+	lastName: 'Oliveira',
+	birthYear: 1992,
+	job: 'Engineer',
+	friends: ['Helena', 'Luiz'],
+	hasDriverLicense: false,
+
+    calcAge: function() {
+        this.age = 2022 - this.birthYear;
+        return this.age;
+    },
+
+	challenge: function () {
+		this.text = `${this.firstName} is a ${this.calcAge()} years old ${this.job} and has ${this.hasDriverLicense ? 'a': 'no'} Driver's License and his best friend is ${this.friends[0]}`;
+		return this.text;
+	}
+}
+
+console.log(helton.challenge());
+//will print to the console: ***Helton is a 30 years old Engineer and has no Driver's License and his best friend is Helena***
+```
+
+### Arrays Methods
+
+To end this section now that we have a better understanding of Methods, we can go back to Arrays once we have already talked about its methods like push, shift, unshift, pop and others, so turns out that Arrays are also objects, however while in objects we can create our own methods, in arrays we use built in methods.
