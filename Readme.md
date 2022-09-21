@@ -3,7 +3,7 @@
 
 <div align="center">
 
-### Angular | C# - Fullstack Developer
+### React | C# - Fullstack Developer
 ### Computer Scientist
 </div>
 
