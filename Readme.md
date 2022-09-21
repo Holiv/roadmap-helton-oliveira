@@ -3,12 +3,12 @@
 
 <div align="center">
 
-### React | C# - Fullstack Developer
-### Computer Scientist
+### React | Typescript | C# - Fullstack Developer
+### Self-Taught Computer Scientist
 </div>
 
 
-### <i>Carees <u>Roadmap</u> to track my progress during the journey to become a <u>Developer</u> and a <u>Self-taught Computer Scientist</u></i>
+#### <i>Career <u>Roadmap</u> to track my progress during the journey to become a <u>Developer</u> and a <u>Self-taught Computer Scientist</u></i>
 <i>Criação de um roadmap de carreira com objetivo de registrar meu progresso durante os estudos na formação de <b>Desenvolvedor</b> e <b>Cientista da Computação autodidata.</b><br></i>
 
 ------
