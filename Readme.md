@@ -41,7 +41,7 @@
 | ------------ | ------------ | ------------ | ------------ |
 |  <i><b>Front-end related courses</b></i>  | -| - | - |
 | <img width="18px" src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"> <a href="https://www.udemy.com/course/freelance-web-design-from-design-to-development-to-making-money/learn/lecture/16279960?start=15">Complete Web Design: From Figma to Webflow</a>  | <div align='center'><a href='./Notes/The Complete JavaScript Course/The Complete JavaScript Course.md'>Read Note</a></div>  | Progress - 5%  |
-| <img width="18px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <a href="https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22628657?start=0">The Complete JavaScript Course</a>  | <div align='center'><a href='./Notes/The Complete JavaScript Course/The Complete JavaScript Course.md'> Read Note</a></div>  | Progress - 20% |
+| <img width="18px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <a href="https://www.udemy.com/course/the-complete-javascript-course/learn/lecture/22628657?start=0">The Complete JavaScript Course</a>  | <div align='center'><a href='./Notes/The Complete JavaScript Course/The Complete JavaScript Course.md'> Read Note</a></div>  | Progress - 25% |
 | <img width="18px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"><a href=""> Understanding TypeScript</a>   |  |  Not Started |
 | <img width="18px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"> React - The Complete Guide (incl Hooks, React Router, Redux)</a>   |   |  Not Started |
 |  <img width="18px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png"><a href=""> TypeScript for Professionals</a>  |   |  Not Started |
@@ -73,7 +73,7 @@
 | ------------ | ------------ | ------------ | ------------ |
 | <img width="18px" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"> <a href="https://www.udemy.com/course/javascript-unit-testing-the-practical-guide/">JavaScript Unit Testing - The Practical Guide</a>  |   |  Not Started |
 | <img width="18px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"><a href="https://www.udemy.com/course/react-testing-library/"> Testing React with Jest and React Testing Library (RTL)</a>   |   |  Not Started |
-|  <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.udemy.com/course/unit-testing-csharp/"> Unit Testing for C# Developers</a>  |   |  Not Started |
+|  <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.pluralsight.com/courses/asp-dot-net-core-6-mvc-web-application-unit-testing"> Unit Testing an ASP.NET Core 6 MVC Web Application</a>  |   |  Not Started |
 |  <img width="18px" src="https://static.cloud-boxloja.com/lojas/wyfyg/produtos/e3a5cbf1-f38e-4b2d-9263-d2216fd778f0.jpg"><a href="https://www.youtube.com/watch?v=ub3P8c87cwk&ab_channel=IAmTimCorey">  Unit Testing in C# using XUnit</a>  |   |  Not Started 
 </div>
 
